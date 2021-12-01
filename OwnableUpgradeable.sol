@@ -2,8 +2,8 @@
 
 pragma solidity >=0.6.0 <0.8.0;
 
-import "../utils/ContextUpgradeable.sol";
-import "../proxy/Initializable.sol";
+import "https://github.com/hpb-one/contracts/blob/main/ContextUpgradeable.sol";
+import "https://github.com/hpb-one/contracts/blob/main/Initializable.sol";
 /**
  * @dev Contract module which provides a basic access control mechanism, where
  * there is an account (an owner) that can be granted exclusive access to
