@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Address.sol";
 import "https://github.com/hpb-one/contracts/blob/main/IUniswapV2Factory.sol";
 import "https://github.com/hpb-one/contracts/blob/main/IUniswapV2Router02.sol";
 import "https://github.com/hpb-one/contracts/blob/main/IUniswapV2Pair.sol";
-import "../interfaces/ILiquidityGeneratorToken.sol";
+import "https://github.com/hpb-one/contracts/blob/main/ILiquidityGeneratorToken.sol";
 
 contract LiquidityGeneratorToken is
     IERC20Upgradeable,
