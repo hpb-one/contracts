@@ -2,14 +2,13 @@
 
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
-import "@openzeppelin/contracts/math/SafeMath.sol";
-import "@openzeppelin/contracts/utils/Address.sol";
+import "https://github.com/hpb-one/contracts/blob/main/IERC20Upgradeable.sol";
+import "https://github.com/hpb-one/contracts/blob/main/OwnableUpgradeable.sol";
+import "https://github.com/hpb-one/contracts/blob/main/SafeMath.sol";
+import "https://github.com/hpb-one/contracts/blob/main/Address.sol";
 import "https://github.com/hpb-one/contracts/blob/main/IUniswapV2Factory.sol";
 import "https://github.com/hpb-one/contracts/blob/main/IUniswapV2Router02.sol";
 import "https://github.com/hpb-one/contracts/blob/main/IUniswapV2Pair.sol";
-import "https://github.com/hpb-one/contracts/blob/main/ILiquidityGeneratorToken.sol";
 
 contract LiquidityGeneratorToken is
     IERC20Upgradeable,
